@@ -1,0 +1,10 @@
+Tool: built-in image_gen.imagegen. All assets are new illustrative images.
+
+living.png
+Photorealistic architectural editorial photograph for a luxury bespoke furniture website, wide landscape 1536x1024. Warm dark walnut paneled living room, low sculptural cream boucle sofa on right, smoked oak low coffee table, travertine floor, large window on far left with soft afternoon light, subtle brass arc floor lamp, magazine quality physically plausible furniture and rich tactile detail. Composition left third relatively dark open wall for website headline overlay. No text, no logo, no collage. Luxurious restrained warm cinematic tones, crisp high quality.
+
+kitchen.png
+Photorealistic architectural editorial photograph, wide landscape 1536x1024. Bespoke modern American kitchen in smoked oak, rich natural walnut floor to ceiling cabinets, large monolithic beige travertine island to right, three sculptural wood stools, black bronze faucet, warm indirect light, beautiful view to leafy garden at far right. Left third is dark oak cabinetry with restrained low detail for website text overlay. Architectural Digest photography, high detail true wood grain, immaculate straight geometry, sophisticated quiet warm shadows. No lettering, people or logos.
+
+dining.png
+Photorealistic editorial interiors photograph wide landscape 1536x1024, beautifully designed dining room with solid dark oak oval table, six upholstered ivory chairs, pendant thin brass ring, floor to ceiling walnut bookcase, stone floor, side sun casting sharp warm shadows, small sculptural vase on table. Ultra realistic magazine photography of high end custom furniture, tactile wood, balanced composition. No text, no people, no logos.

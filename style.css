@@ -1212,3 +1212,62 @@ h2,.collection-intro h2,.faq h2 {
 
 }
 
+
+/* Simplified editorial layout: readable type and fewer competing elements. */
+:root { --muted:#d1cdc5; --line:rgba(232,220,198,.25); }
+body { font-size:17px; line-height:1.65; }
+h1,h2 { font-family:Manrope,sans-serif; font-weight:500; letter-spacing:-.045em; line-height:1.15; }
+h1 i,h2 i { font-style:normal; color:inherit; }
+h1 { font-size:clamp(42px,5.3vw,76px); }
+h2 { font-size:clamp(30px,3.4vw,48px); }
+header { background:#191815; }
+nav a,.language { font-size:15px; }
+.brand small { display:none; }
+.button,.compact,.text-link { font-size:15px; }
+.button { min-height:48px; justify-content:center; gap:0; padding:14px 24px; }
+.button span:empty { display:none; }
+.hero,.en .hero { min-height:620px; height:82svh; max-height:850px; }
+.hero-content,.en .hero-content { padding:185px 0 80px; max-width:740px; }
+.hero-shade,.en .hero-shade { background:linear-gradient(90deg,rgba(15,14,12,.86),rgba(15,14,12,.5) 48%,rgba(15,14,12,.1)); }
+.hero-intro { font-size:18px; color:#f1ece3; max-width:470px; line-height:1.65; }
+.section { padding-block:76px; }
+.project-grid { gap:28px; }
+.project-photo,.en .project-photo { height:360px; }
+.en .project:nth-child(2) { margin-top:0; }
+.project-caption h3 { font-size:23px; }
+.project-caption small { font-size:15px; color:#d1cdc5; }
+.project-photo>span { display:none; }
+.steps { margin-top:36px; gap:32px; }
+.step-number { font:16px Manrope,sans-serif; color:#dec9a3; }
+.steps h3 { font-size:21px; margin-top:22px; }
+.steps p { font-size:16px; }
+.inquiry-layout { gap:70px; align-items:start; }
+.inquiry-copy>p { font-size:17px; }
+label { font-size:15px; color:#e6e0d6; }
+input,select,textarea { font-size:17px; }
+.form-note,.footer-bottom small { font-size:13px; color:#c6c0b6; }
+.form-top>span,.back-button { font-size:15px; }
+.footer-top p { display:none; }
+.footer-bottom { margin-top:28px; font-size:14px; }
+.dialog-copy p,.dialog-copy pre { font-size:16px; }
+@media(max-width:760px) {
+ .wrap { width:calc(100% - 40px); }
+ .hero,.en .hero { min-height:600px; height:82svh; max-height:760px; }
+ .hero-content,.en .hero-content { padding:150px 22px 65px; margin:0; }
+ h1 { font-size:clamp(38px,10vw,58px); }
+ h2 { font-size:32px; }
+ .hero-intro { font-size:17px; max-width:330px; }
+ .hero-actions .button,.form-buttons .button { font-size:15px; }
+ .hero-shade,.en .hero-shade { background:linear-gradient(90deg,#13120fe6,#13120f85); }
+ .section { padding-block:52px; }
+ .project-grid { gap:28px; }
+ .project-photo,.en .project-photo { height:300px; }
+ .project-caption { padding:16px 0; }
+ .steps { grid-template-columns:1fr; gap:22px; }
+ .steps h3 { margin:10px 0; font-size:21px; }
+ .steps p { font-size:16px; margin-bottom:0; }
+ .inquiry-layout { gap:28px; }
+ .field-grid { grid-template-columns:1fr; gap:0; }
+ .footer-top .text-link { font-size:15px; }
+ .dialog-copy pre { font-size:15px; }
+}
